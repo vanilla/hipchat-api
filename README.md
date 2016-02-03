@@ -97,9 +97,9 @@ The following list shows methods available and missing:
 - [x] Get room message
 - [x] View room history
 - [x] View recent room history
-- [ ] Get glance
-- [ ] Create glance
-- [ ] Delete glance
+- [x] Get glance
+- [x] Create glance
+- [x] Delete glance
 - [x] Invite user
 - [x] Add member
 - [x] Remove member
