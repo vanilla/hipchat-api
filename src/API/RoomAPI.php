@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-namespace HipChat\API;
+namespace HipChat\v2\API;
 
 /**
  * Represents Room API methods

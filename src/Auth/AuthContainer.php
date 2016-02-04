@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-namespace HipChat\Auth;
+namespace HipChat\v2\Auth;
 
 /**
  * Represents a HipChat auth token.

@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": { 
-            "HipChat\\": "src"
+            "HipChat\\v2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": { 
-            "HipChat\\Tests\\": "tests"
+            "HipChat\\v2\\Tests\\": "tests"
         }
     }
 }

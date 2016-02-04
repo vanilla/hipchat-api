@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-namespace HipChat;
+namespace HipChat\v2;
 
 use Garden\Http\HttpClient;
 
