@@ -30,7 +30,7 @@ HipChat uses OAuth2 tokens with specific scopes to control API access. You can r
 <?php
 
 // The library lives in the HipChat namespace.
-use HipChat;
+use HipChat\HipChatClient;
 
 // Require composer's autoloader.
 require_once 'vendor/autoload.php';
@@ -55,7 +55,7 @@ If you are using a private instance of HipChat, you can change the API base URL 
 ```php
 <?php
 
-use HipChat;
+use HipChat\HipChatClient;
 
 $client = new HipChatClient('https://my.hipchatdomain.com');
 ```
