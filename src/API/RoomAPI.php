@@ -483,8 +483,6 @@ class RoomAPI extends API {
      */
     public function sendNotification($roomid, $message, $color = 'yellow', $notify = false, $format = 'text', $options = []) {
         $default = [
-            'from' => null,
-            'attach_to' => null,
             'card' => null
         ];
 
