@@ -547,15 +547,29 @@ class RoomAPI extends API {
     /**
      * Share link to room
      *
-     * POST /v2/room/<roomid>/share/link
+     * POST /v2/room/<room_id_or_name>/share/link
      *
-     * @param mixed $roomid id or name
-     * @param string $link
-     * @param string $message optional.
+     * @param string|int room_id_or_name id or name
+     * @param string     $link
+     * @param string     $message        optional.
+     *
      * @return boolean
+     *
+     * @see https://www.hipchat.com/docs/apiv2/method/share_link_with_room
      */
-    public function shareLink($roomid, $link, $message = null) {
-        return false;
+    public function shareLink($room_id_or_name, $link, $message = '')
+    {
+        $body = [
+            'link'    => $link,
+            'message' => $message
+        ];
+
+        $response = $this->client->post("room/{$room_id_or_name}/share/link", $body);
+        if (!$response->isSuccessful()) {
+            return false;
+        }
+
+        return true;
     }
 
     /**
