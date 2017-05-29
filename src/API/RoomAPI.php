@@ -215,7 +215,7 @@ class RoomAPI extends API {
      * @param mixed $roomid id or name
      */
     public function getGlance($roomid) {
-
+        // TODO: method stub
     }
 
     /**
@@ -223,7 +223,7 @@ class RoomAPI extends API {
      * @param type $roomid
      */
     public function createGlance($roomid) {
-
+        // TODO: method stub
     }
 
     /**
@@ -231,7 +231,7 @@ class RoomAPI extends API {
      * @param mixed $roomid id or name
      */
     public function deleteGlance($roomid) {
-
+        // TODO: method stub
     }
 
     /**
